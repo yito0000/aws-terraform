@@ -1,0 +1,10 @@
+variable "ip_address" {
+  description = "接続元のグローバルIP CIDR表記 security groupで使用"
+  default = "xxxxx"
+}
+
+variable "key_name" {
+  description = "ec2 instance key name"
+  default = "xxxx"
+}
+
